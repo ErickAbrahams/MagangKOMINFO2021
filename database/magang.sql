@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2021 at 10:25 AM
+-- Generation Time: Nov 23, 2021 at 03:40 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -93,6 +93,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `role_id`, `is_active`, `date_created`) VALUES
+(1, 'Admin', 'admin@mail.com', '123', 2, 1, 0),
 (4, 'Erick Abraham', 'admin1@gmail.com', '$2y$10$a7uo6t7r35uwUx8nI2B3R.YOXM.RKlO65ZTBxSh.73tlPnS337g9O', 2, 1, 1630336956);
 
 -- --------------------------------------------------------
